@@ -9,7 +9,6 @@ This lab walks you through configuring ServiceManager, Atlanta and SanFran deplo
 -	Configure the initial ServiceManager and then the Atlanta and SanFran Deployments 
 -	Connect to the Admin Service through a web browser and confirm that the deployments succeeded and that the ServiceManager and core GoldenGate services are running.
 
-
 ## **STEP 1**: Open up a terminal window and create the ServiceManager and Source(Atlanta) Deployment
 
 In this step you will create the initial ServiceManager. ServiceManager is the bootstrap process that can be configured as a daemon process in Unix and windows so that it can start and stop on system startup and shutdown.   
@@ -23,11 +22,11 @@ It is also responsible for starting and stopping the other GoldenGate services a
 
 		cd /u01/gghome/bin
 
--   Then, run the **oggca.sh** script:
+3.  Then, run the **oggca.sh** script:
 
 		[oracle@@ggma bin] ./oggca.sh
 
--	The following screen will appear.   
+4. 	The following screen will appear.   
 
 ![](images/200/Lab002_1.jpg)
 
@@ -179,5 +178,7 @@ You may now *proceed to the next lab*.
 * **Last Updated By/Date** - Meghana Banka, September 2020
 
 
-## See an issue?
-Please submit feedback using this [form](https://apexapps.oracle.com/pls/apex/f?p=133:1:::::P1_FEEDBACK:1). Please include the *workshop name*, *lab* and *step* in your request.  If you don't see the workshop name listed, please enter it manually. If you would like for us to follow up with you, enter your email in the *Feedback Comments* section.
+## Need Help?
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+
+If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
